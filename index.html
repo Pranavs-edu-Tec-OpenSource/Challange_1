@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<title>Page title</title>
+				<style>
+								@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+								center{
+												padding-top: 20px;
+								}
+							 body{
+												font-family: 'Reggae One', cursive;
+								}
+								input{
+												outline: none;
+												cursor: pointer;
+								}
+								#mango{
+												height:100vh;
+								}
+				</style>
+</head>
+<body>
+				<center>
+								<div id="mango">
+								<h1>Switch on the light</h1>
+								<img src="light.png" alt="Light"><br>
+								<input type="image" src="power-button.png" onClick="on()" alt="button" width="100px">
+								</div>
+								<div id="apple">
+												
+								</div>
+				</center>
+				<center>
+								
+				</center>
+				<script>
+								function on(){
+												document.getElementById('mango').innerHTML = `<img src="maxresdefault.jpg" alt="Bijli Ka Bill Tera Baap Bharega?" width="90%">
+												<h1>Bijli Ka Bill Tera Baap Bharega?</h1>`;
+												
+												document.getElementById('apple').innerHTML = `<hr><h3>Made by Pranav.<br><a href="https://github.com/Pranavs-edu-Tec-OpenSource">Github</a></h3>`;
+								}
+				</script>
+</body>
+</html>
